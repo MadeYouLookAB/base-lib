@@ -1,8 +1,8 @@
 class VideoLibrary {
   constructor(e = {}) {
     this.options = {
-      rootMargin: e.rootMargin || "100px",
-      threshold: e.threshold || 0,
+      rootMargin: e.rootMargin || "0px",
+      threshold: e.threshold || 0.05, 
       scrollTriggerThreshold: e.scrollTriggerThreshold || 0.5,
       debug: e.debug || false,
       ...e,
